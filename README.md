@@ -2,7 +2,7 @@
 # Speech Emotion Recognition Project
 
 ## Overview
-This project is a web-based application for recognizing emotions from speech. It uses a machine learning model to analyze the emotional tone in spoken words. The backend is built with FastAPI, providing robust and efficient handling of requests, and the frontend is developed using React, offering a dynamic and responsive user interface.
+This project is a web-based application for recognizing emotions from speech. It uses a deep learning model to analyze the emotional tone in spoken words. The backend is built with FastAPI, providing robust and efficient handling of requests, and the frontend is developed using React, offering a dynamic and responsive user interface.
 
 ## Features
 - **Emotion Recognition**: Analyze spoken words and identify emotions like happiness, sadness, anger, etc.
