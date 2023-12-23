@@ -1,23 +1,29 @@
 
-# Speech Emotion Recognition Project
+# Speech Emotion Recognition
 
 ## Overview
-This project is a web-based application for recognizing emotions from speech. It uses a deep learning model to analyze the emotional tone in spoken words. The backend is built with FastAPI, providing robust and efficient handling of requests, and the frontend is developed using React, offering a dynamic and responsive user interface.
+This repository contains the code for a Speech Emotion Recognition (SER) application. The application is designed to identify emotions from speech using a deep learning model. The backend is built with FastAPI and deployed on Google Cloud Platform (GCP), while the frontend is developed using React and deployed on Vercel.
 
 ## Features
-- **Emotion Recognition**: Analyze spoken words and identify emotions like happiness, sadness, anger, etc.
-- **User-Friendly Interface**: Easy-to-use web interface for uploading audio files.
-- **Real-Time Analysis**: Quick processing and visualization of emotional tones.
+- Audio recording and upload functionality.
+- Real-time emotion detection from speech.
+- Responsive UI for a seamless user experience.
+
+## Technology Stack
+- **Backend**: FastAPI
+- **Frontend**: React
+- **Deployment**: GCP (Backend), Vercel (Frontend)
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-- Python 3.8 or later
-- Node.js 12.x or later
-- npm or yarn
+- Python 3.8+
+- Node.js and npm
 
-### Installation
+### Installing
+A step-by-step guide to get a development environment running.
+
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/1sharkguy/Speech-Emotion-Recognition.git
@@ -25,54 +31,36 @@ These instructions will get you a copy of the project up and running on your loc
    ```
 
 2. **Set Up the Backend**
-   - Navigate to the backend directory:
-     ```bash
-     cd backend
-     ```
-   - Install the required Python packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Start the FastAPI server:
-     ```bash
-     uvicorn main:app --reload
-     ```
+   ```bash
+   cd backend
+   pip install -r requirements.txt
+   uvicorn main:app --reload
+   ```
 
 3. **Set Up the Frontend**
-   - Navigate to the frontend directory from the root of the project:
-     ```bash
-     cd ../frontend
-     ```
-   - Install the required npm packages:
-     ```bash
-     npm install
-     ```
-   - Start the React development server:
-     ```bash
-     npm start
-     ```
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
 
-4. **Access the Application**
-   - Open your web browser and navigate to `http://localhost:3000`.
+## Deployment
+Instructions on how to deploy the project on GCP and Vercel.
+
+### Backend Deployment on GCP
+- Detailed steps on deploying the FastAPI backend on GCP.
+
+### Frontend Deployment on Vercel
+- Steps to deploy the React frontend on Vercel.
 
 ## Usage
-- Record or upload an audio file through the web interface.
-- Submit the audio file for processing.
-- View the emotional analysis results displayed on the interface.
+How to use the application.
 
 ## Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Instructions on how to contribute to the project.
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the [MIT License](LICENSE.md).
 
-## Contact
-Your Name - [divyanshgarg404@gmail.com](mailto:divyanshgarg404@gmail.com)
-
-Project Link: [https://github.com/1sharkguy/Speech-Emotion-Recognition](https://github.com/1sharkguy/Speech-Emotion-Recognition)
+## Acknowledgments
+- Mention any inspirations, code snippets, etc.
