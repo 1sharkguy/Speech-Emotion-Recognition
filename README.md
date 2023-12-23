@@ -73,6 +73,6 @@ Contributions are what make the open source community such an amazing place to l
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name - [divyanshgarg404@gmail.com](mailto:divyanshgarg404@gmail.com)
 
 Project Link: [https://github.com/1sharkguy/Speech-Emotion-Recognition](https://github.com/1sharkguy/Speech-Emotion-Recognition)
