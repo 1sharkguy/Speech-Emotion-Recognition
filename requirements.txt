@@ -1,0 +1,7 @@
+tensorflow
+google-cloud-storage
+Pillow
+librosa
+scikit-learn
+fastapi
+uvicorn
