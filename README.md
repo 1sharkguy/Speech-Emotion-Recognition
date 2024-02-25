@@ -2,7 +2,7 @@
 # Speech Emotion Recognition
 
 ## Overview
-This repository contains the code for a Speech Emotion Recognition (SER) application. The application is designed to identify emotions from speech using a deep learning model. The backend is built with FastAPI and deployed on Google Cloud Platform (GCP), while the frontend is developed using React and deployed on Vercel.
+This repository contains the code for a Speech Emotion Recognition (SER) application. The application is designed to identify emotions from speech using a deep learning model.
 
 ## Features
 - Audio recording and upload functionality.
@@ -44,22 +44,7 @@ A step-by-step guide to get a development environment running.
    npm start
    ```
 
-## Deployment
-Instructions on how to deploy the project on GCP and Vercel.
 
-### Backend Deployment on GCP
-- Detailed steps on deploying the FastAPI backend on GCP.
-
-### Frontend Deployment on Vercel
-- Steps to deploy the React frontend on Vercel.
-
-## Usage
-How to use the application.
-
-## Contributing
-Instructions on how to contribute to the project.
-
-## License
 This project is licensed under the [MIT License](LICENSE.md).
 
 ## Acknowledgments
